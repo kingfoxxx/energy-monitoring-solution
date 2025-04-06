@@ -1,7 +1,6 @@
 provider "aws" {
-  region = "us-east-1" # Adjust based on your region
+  region = "us-east-1" # Adjust based on region
 }
-
 # KMS Key for encryption
 resource "aws_kms_key" "energy_monitor_key" {
   description = "KMS key for energy monitoring solution"
