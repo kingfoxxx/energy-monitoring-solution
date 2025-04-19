@@ -37,7 +37,7 @@ Scalability and High Availability
 - Multi-AZ support ensures high availability and fault tolerance.
 
 Bonus: Data Batching Optimization
-Instead of sending individual IoT messages, the solution batches multiple readings before streaming them via Firehose. This reduces API costs and improves processing efficiency.
+Instead of sending individual IoT messages, the solution batches multiply readings before streaming them via Firehose. This reduces API costs and improves processing efficiency.
 
 Conclusion
 This architecture ensures real-time, cost-effective, and secure monitoring of energy consumption while maintaining high availability and low latency. It leverages AWS-native services to create a scalable and automated data pipeline.
