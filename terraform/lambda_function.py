@@ -9,7 +9,7 @@ def lambda_handler(event, context):
         "kwh": event.get("kwh")
     }
     
-    # Send to Kinesis Firehose
+    # Send data to Kinesis Firehose
     firehose.put_record(
         DeliveryStreamName='energy-firehose-stream',
         Record={'Data': json.dumps(energy_data).encode('utf-8')}
